@@ -13,10 +13,12 @@ body {
 
 ul > li > a {
   text-decoration: none;
+  color: black;
 }
 
 .navbar-links:hover{
   font-weight: 700;
+  color: black;
 }
 
 .cool {
