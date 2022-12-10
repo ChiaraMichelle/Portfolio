@@ -13,13 +13,26 @@ body {
 
 }
 
-ul > li > a {
-  text-decoration: none;
+
+
+ul > li > a:link {
+  color: #363062;
 }
 
-.navbar-links:hover{
+ul > li > a:visited {
+  color: #363062;
+}
+
+ul > li > a:hover {
+  text-decoration: none;
+  color: #363062;
   font-weight: 700;
 }
+
+ul > li > a:active {
+  color: #363062;
+}
+
 
 .cool {
   font-size: 25px;
@@ -34,14 +47,13 @@ nav > ul {
     font-weight: 400;
    list-style: none;
    text-transform: uppercase;
-   color: #363062;
    align-content: center;
 }
 
 li {
   padding-left: 1.5em;
   padding-right: 4em;
-  color: #363062;
+  color: #363062; 
 }
 
 h1 {
@@ -54,6 +66,7 @@ h1 {
    padding-bottom: 0;
    margin-bottom: 0;
    margin-top: 0;
+  
 }
 
 .hotpink {
